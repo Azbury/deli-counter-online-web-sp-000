@@ -9,5 +9,5 @@ def line (current_line)
       string << "#{i + 1}. #{person} "
     end
   end
-  puts string
+  puts string.chomp
 end
