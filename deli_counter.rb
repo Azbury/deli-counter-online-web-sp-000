@@ -20,7 +20,7 @@ def now_serving (cur_line)
   if cur_line.size == 0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{cur_line[0]}"
+    puts "Currently serving #{cur_line[0]}."
     cur_line.unshift()
   end
 end
