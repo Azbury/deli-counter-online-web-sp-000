@@ -17,5 +17,6 @@ def take_a_number (cur_line, name)
 end
 
 def now_serving (cur_line)
-  if cur_line
+  if cur_line.size == 0
+    empty
 end
