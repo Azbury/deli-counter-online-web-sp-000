@@ -11,4 +11,3 @@ def line (current_line)
   end
   puts string
 end
-    
