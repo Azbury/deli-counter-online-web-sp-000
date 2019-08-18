@@ -14,5 +14,5 @@ end
 
 def take_a_number (cur_line, name)
   cur_line.push(name)
-  puts "Welcome #{name}, You are number #{cur_line.size} in line."
+  puts "Welcome, #{name}. You are number #{cur_line.size} in line."
 end
